@@ -1,0 +1,9 @@
+Package: wanparty-localserver-stretch
+Version: 1.11.13
+Section: admin
+Priority: optional
+Architecture: all
+Depends:  wanparty-base, wanparty-dns-server, wanparty-vpn-client, wanparty-dhcp-server, wanparty-firewall, wanparty-network-config, wanparty-portal, wanparty-ldap
+Conflicts: vim-tiny, netcat-traditional
+Maintainer: Sohaib Lafifi <sohaib.lafifi@univ-artois.fr>
+Description: Meta package pour le serveur locale de la wan

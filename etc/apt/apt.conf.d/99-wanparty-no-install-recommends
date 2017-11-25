@@ -1,0 +1,3 @@
+# on reprend le comportement "normal" de Debian.
+APT::Install-Recommends "false";
+APT::Install-Suggests "false"; 

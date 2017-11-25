@@ -1,0 +1,10 @@
+/var/log/wanparty/*.log
+{
+        rotate 72
+        hourly
+        size 100k	
+        missingok
+        notifempty
+        compress
+        #create 0640 root adm
+}
